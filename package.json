@@ -1,0 +1,12 @@
+{
+  "name": "Malina",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "NigthyFly",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "ws": "^8.8.1"
+  }
+}
