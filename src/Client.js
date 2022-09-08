@@ -1,6 +1,7 @@
 const echo = console.log;
 
 const { WebSocket } = require('ws');
+
 const EventEmitter = require('node:events');
 
 class Client extends EventEmitter {
@@ -65,9 +66,9 @@ class Client extends EventEmitter {
 				token: this.token,
 				intents: 1 << 9,
 				properties: {
-					os: 'Windows 8.1',
-					browser: 'Chromium',
-					device: 'Lenovo',
+					os: process.platform,
+					browser: 'DAPI',
+					device: 'DAPI',
 				},
 			},
 		};
